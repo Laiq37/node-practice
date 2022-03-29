@@ -1,0 +1,17 @@
+how to initialize npm 
+1- npm init
+
+how to import file in ES module
+1- go to package.json
+2- add "type" : "module"
+
+how to install module through npm 
+1- npm i/install module/package name
+
+how to observe changes in file
+--> for this we can use nodemon package globally, we can also install this package locally but normally we need this feature across different project
+so we are installing it globally
+1- npm install nodemon -global
+
+how to exit from nodemon observable envoirnment
+--> ctrl+c

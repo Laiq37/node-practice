@@ -1,0 +1,4 @@
+In node all files are modules
+By default their scope is private, means not accessible from outside of module, to use one module objects in other module we have to export them
+wraperfunction of node is also known as IFFE function, this is basically a anonymous function which wraps the content of module and cuz of it module
+objects become private
