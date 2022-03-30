@@ -1,0 +1,4 @@
+|-| Express js is node js frameWork. It is the most popular as of now(the most starred on npm)
+|-| ExpressJs is a webapplication frameWork that provides you with a simple API to build websites, web apps, and backends
+|-| The express. static() function is a built-in middleware function in Express. It serves static files and is based on serve-static. 
+    Syntax: express.static(root, [options]) Parameters: The root parameter describes the root directory from which to serve static assets.

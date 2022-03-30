@@ -1,4 +1,13 @@
-In node all files are modules
-By default their scope is private, means not accessible from outside of module, to use one module objects in other module we have to export them
-wraperfunction of node is also known as IFFE function, this is basically a anonymous function which wraps the content of module and cuz of it module
-objects become private
+|-| In node all files are modules
+|-| By default their scope is private, means not accessible from outside of module, to use one module objects in other module we have to export them
+|-| wraperfunction of node is also known as IIFE function, this is basically a anonymous function which wraps the content of module and cuz of it module
+    objects become private
+|-| IIFE stands for immediately invoked function expression
+|-| Var vs Let
+    if we define a variable then it will be available inside and outside of scope, but let only available inside scope(locally)
+|-| We can create our own web server with only node js(which handle requests asynchronously)
+|-| when we are using nodejs then we dont need to use 3rd party webserve like Apache, IIS etc
+|-| How to open our locally create webserver in browser
+    in browser just type localhost:portNumber
+|-| To show our response on browser we uses res.end() funtion we can also use res.write() which holds the response and res.send() to show response
+    but res.end() does both thing on its own so we dont need to use it

@@ -1,0 +1,14 @@
+{
+  "name": "express_app",
+  "version": "1.0.0",
+  "description": "express js resources",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Laiq",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
