@@ -1,0 +1,17 @@
+{
+  "name": "16-mongoose",
+  "version": "1.0.0",
+  "description": "what is mongoose?\r \tMongoose is an Object Data Modeling (ODM) library for MongoDB and Node.js. \r \tIt manages relationships between data, provides schema validation, \r \tand is used to translate between objects in code and the representation of those objects in MongoDB.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jshint": "^2.13.4",
+    "mongoose": "^6.2.9",
+    "validator": "^13.7.0"
+  }
+}

@@ -11,3 +11,7 @@
     in browser just type localhost:portNumber
 |-| To show our response on browser we uses res.end() funtion we can also use res.write() which holds the response and res.send() to show response
     but res.end() does both thing on its own so we dont need to use it
+
+---------Note-----------
+|-| In npm if folder name and package name are same then package wont install, so folder name must be different
+|-| must wrap async block of code in try catch block for error handling, and for making program more robust

@@ -2,3 +2,9 @@
 |-| ExpressJs is a webapplication frameWork that provides you with a simple API to build websites, web apps, and backends
 |-| The express. static() function is a built-in middleware function in Express. It serves static files and is based on serve-static. 
     Syntax: express.static(root, [options]) Parameters: The root parameter describes the root directory from which to serve static assets.
+|-| to directly run and observe project w/o writing full mainFile path, add below key value pair in package.json(script sections)
+    "start" : "node mainFilePath.js"
+    "dev" : "nodemon mainFilePath.js"
+
+    now simply write command in terminal "npm run dev" 
+    
