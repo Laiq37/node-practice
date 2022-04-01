@@ -1,0 +1,6 @@
+|-| Hashing is one way communication, mean plaintext can be converted to hashvalue but hash value cant convert back to plaintext
+|-| Encryption is two way communication, conversion b/w plaintext to cypher text, and cypher text to plaintext
+
+|-| there are multiple hashing algorithm
+    MD5 is the weakest hashing algorithm which can be hacked within 2s
+    bCrypt is the best hashing algorithm which is very difficult to be hacked and it take more than 3years to be hacked
