@@ -1,0 +1,11 @@
+|-| to hash password to make it secure we will use bcryptjs package
+|-| we will convert password into hash when new user has been saving before calling save() method we will convert value of it, go to model>user_collection file and check method before user collection, for better understanding refer to thapa technincal nodejs playlist video 74
+
+dotEnv
+|-| to hide important keys or data from user we can use dotenv package
+|-| npm i dotenv
+|-| create .env file in root directory
+|-| write value in .env like that--> VARIABLE_NAME=Value(without quotaion),refer to .env file
+|-| to use the secret value in any file import dotenv and call config() method on it
+    require('dotenv').confi();
+|-| to use .env values in files write process.env.VARIABLE_NAME(from which wanted to replace the value)
