@@ -7,5 +7,5 @@ dotEnv
 |-| create .env file in root directory
 |-| write value in .env like that--> VARIABLE_NAME=Value(without quotaion),refer to .env file
 |-| to use the secret value in any file import dotenv and call config() method on it
-    require('dotenv').confi();
+    require('dotenv').config();
 |-| to use .env values in files write process.env.VARIABLE_NAME(from which wanted to replace the value)
